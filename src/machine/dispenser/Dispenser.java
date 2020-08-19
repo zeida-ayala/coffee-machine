@@ -59,6 +59,7 @@ public class Dispenser {
         calculatorIngredient.calculateNumberCups();
         return calculatorIngredient.getNumberCups() >= numberCups;
     }
+
     @Override
     public String toString(){
         StringBuilder builder = new StringBuilder();

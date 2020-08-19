@@ -6,6 +6,7 @@ public enum IngredientType {
     COFFEEBEANS("coffee beans");
 
     String name;
+
     IngredientType(String name) {
         this.name = name;
     }

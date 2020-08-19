@@ -4,7 +4,7 @@ import machine.CoffeeMachine;
 import machine.enums.StatusMachine;
 import machine.handlers.MenuHandler;
 
-public class FillCommand  implements ICommand{
+public class FillCommand  implements ICommand {
     private CoffeeMachine machine;
 
     public FillCommand(CoffeeMachine machine) {

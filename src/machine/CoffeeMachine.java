@@ -69,7 +69,7 @@ public class CoffeeMachine {
                 .filter(c -> (String.valueOf(c.geOption()).equals(coffeeOptionSelected)))
                 .findFirst()
                 .get();
-        if (coffeeType == CoffeeType.EXPRESSO){
+        if (coffeeType == CoffeeType.EXPRESSO) {
             coffee = new ExpressoStore().orderCoffee();
         } else if (coffeeType == CoffeeType.LATTE) {
             coffee = new LatteStore().orderCoffee();

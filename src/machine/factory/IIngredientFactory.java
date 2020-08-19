@@ -4,6 +4,6 @@ import machine.dispenser.Ingredient;
 
 import java.util.List;
 
-interface IIngredientFactory{
+interface IIngredientFactory {
     List<Ingredient> getIngredients();
 }

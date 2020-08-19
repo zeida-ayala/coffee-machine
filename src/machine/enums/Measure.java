@@ -5,6 +5,7 @@ public enum Measure {
     GRAMOS("g");
 
     String abreviation;
+
     Measure(String abreviation) {
         this.abreviation = abreviation;
     }

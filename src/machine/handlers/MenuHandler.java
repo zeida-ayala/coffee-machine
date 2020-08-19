@@ -94,6 +94,7 @@ public class MenuHandler {
     public String readStringOptionEntered() {
         return scanner.nextLine();
     }
+
     public boolean isBackToMainMenu() {
         return optionSelected.equals("back");
     }
